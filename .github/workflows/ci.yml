@@ -6,6 +6,8 @@ on:
       - main
   schedule:
     - cron: 30 15 */2 * *
+  watch:
+    types: [started]
 
 jobs:
   autogreen:
